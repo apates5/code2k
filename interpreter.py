@@ -7,7 +7,7 @@ from textx.export import metamodel_export, model_export
 
 def main():
     this_folder = dirname(__file__)
-    grammar_path = join(this_folder, '2kscript.tx')
+    grammar_path = join(this_folder, 'code2k.tx')
     program_path = join(this_folder, 'dabishVsMe.code2k')
 
     mm = metamodel_from_file(grammar_path, debug=False)
