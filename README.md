@@ -1,0 +1,1 @@
+Code2k is a domain-specific programming language designed for simulating customizable 3-point basketball contests. Easily create players, set up contests, and run fun or competitive games — including creative challenges like FizzBuzz modes.
