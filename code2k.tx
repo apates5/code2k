@@ -1,0 +1,31 @@
+Model:
+    players*=Player
+    games*=Game
+;
+
+Player:
+    'player' name=ID '{'
+        attributes+=Attribute
+    '}'
+;
+
+Attribute:
+    name=ID ':' value=Value
+;
+
+Value:
+    INT | ID | STRING
+;
+
+Game:
+    'game' '{'
+        'shots:' shots=INT
+        'difficulty:' difficulty=ID
+        'players:' '[' players+=[Player|ID] (',' players+=[Player|ID])* ']'
+        ('fizzbuzz:' fizzbuzz=BOOL)?
+    '}'
+;
+
+BOOL:
+    'true' | 'false'
+;
