@@ -17,5 +17,5 @@ game {
     shots: 50
     difficulty: Pro
     players: [Lillard, Jokic, Lavine]
-    fizzbuzz: false
+    fizzbuzz: true
 }

@@ -1,0 +1,16 @@
+player Dabish {
+    rating: 50
+    form: Slow
+}
+
+player Aarav {
+    rating: 100
+    form: Fast
+}
+
+game {
+    shots: 50
+    difficulty: Rookie
+    players: [Dabish, Aarav]
+    fizzbuzz: false
+}

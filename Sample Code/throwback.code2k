@@ -1,0 +1,21 @@
+player MJ {
+    rating: 85
+    form: Smooth
+}
+
+player Reggie_Miller {
+    rating: 95
+    form: Fast
+}
+
+player Shaq {
+    rating: 60
+    form: Slow
+}
+
+game {
+    shots: 50
+    difficulty: AllStar
+    players: [MJ, Reggie_Miller, Shaq]
+    fizzbuzz: false
+}

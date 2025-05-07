@@ -1,0 +1,16 @@
+player Coby_White {
+    rating: 90
+    form: Smooth
+}
+
+player Curry {
+    rating: 97
+    form: Fast
+}
+
+game {
+    shots: 25
+    difficulty: Superstar
+    players: [Coby_White, Curry]
+    fizzbuzz: false
+}

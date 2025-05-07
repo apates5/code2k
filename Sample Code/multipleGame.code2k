@@ -14,8 +14,15 @@ player Lavine {
 }
 
 game {
-    shots: 50
+    shots: 25
     difficulty: Pro
+    players: [Lillard, Jokic, Lavine]
+    fizzbuzz: false
+}
+
+game {
+    shots: 25
+    difficulty: HallOfFame
     players: [Lillard, Jokic, Lavine]
     fizzbuzz: false
 }
